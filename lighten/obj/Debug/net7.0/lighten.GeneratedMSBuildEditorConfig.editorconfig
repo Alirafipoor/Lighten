@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = lighten
+build_property.RootNamespace = lighten
+build_property.ProjectDir = C:\Users\alira\Desktop\اموزشی\lighten\lighten\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\alira\Desktop\اموزشی\lighten\lighten
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Areas/Admin/Views/Product/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Areas/Admin/Views/Shared/_layoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9sYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/UserController1/DisplayEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbnRyb2xsZXIxXERpc3BsYXlFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/UserController1/DisplayRestPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbnRyb2xsZXIxXERpc3BsYXlSZXN0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/UserController1/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbnRyb2xsZXIxXEZvcmdldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/UserController1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbnRyb2xsZXIxXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/UserController1/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbnRyb2xsZXIxXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/UserController1/RestPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbnRyb2xsZXIxXFJlc3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alira/Desktop/اموزشی/lighten/lighten/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-epqrex0oaa

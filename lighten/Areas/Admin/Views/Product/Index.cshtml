@@ -1,0 +1,146 @@
+﻿@model List<DAL.Services.Product.Queries.GetAllProducts.ProductDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+<h1></h1>
+
+<p>
+    <a asp-action="Create">لیست محصولات جدید</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>نام </th>
+            <th>قیمت</th>
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td><p id="namep">@item.Name</p></td>
+                <td><p id="pricep">@item.Price</p></td>
+                
+            <td>
+                    <button onclick="ShowModal('@item.Id','@item.Name','@item.Price')">ویرایش</button>
+                    <button onclick="Delete('@item.Id')">حذف</button>
+               
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+   
+
+    <script>
+        function Delete(id){
+
+            var ID=id;
+
+            $.post("/Admin/Product/Delete",{id:ID})
+            .done(function(res){
+
+                    location.reload();
+
+                    swal("کاربر با موفقیت حذف شد", {
+                        icon: "success",
+                    });
+
+                    
+
+
+            });
+
+
+        }
+
+
+
+        
+
+    </script>
+
+    <script>
+
+        function ShowModal(userid, name, price) {
+
+            $("#Edit_name").val(name);
+            $("#Edit_price").val(price);
+            $("#Edit_UserId").val(userid);
+
+            $("#EditUser").modal('show');
+
+        }
+    </script>
+    <script>
+        function SendChange() {
+
+            var name = ("#Edit_name").val();
+            var price = ("#Edit_price").val();
+            var userid = ("#Edit_UserId").val();
+
+
+
+            $.post("/Admin/Product/Edit", { name; name, price: price, userid: userid })
+
+                .done(function (res) {
+
+                    location.reload();
+
+
+
+
+                })
+
+            $('#EditUser').modal('hide');
+        }
+    </script>
+    
+   
+}
+
+@section Modals
+    {
+    <div class="modal fade" id="EditUser" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">ویرایش کاربر</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xl-12 col-lg-12 col-md-12 mb-1">
+                        <fieldset class="form-group">
+                            <input type="hidden" id="Edit_UserId" />
+                            <label for="basicInput">نام محصول</label>
+                            <input type="text" class="form-control" id="Edit_name">
+
+                            <label for="basicInput">قیمت</label>
+                            <input type="text" class="form-control" id="Edit_price">
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-secondary" data-dismiss="modal">بستن</a>
+                    <button class="btn btn-primary" onclick="SendChange()">اعمال تغییرات</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+}

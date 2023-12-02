@@ -1,0 +1,14 @@
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\bin\Debug\net7.0\Domain.runtimeconfig.json
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
+C:\Users\alira\Desktop\اموزشی\lighten\Domain\obj\Debug\net7.0\ref\Domain.dll
