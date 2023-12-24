@@ -19,7 +19,7 @@ namespace Domain.Db
       
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=185.10.75.52;Initial Catalog=ar79_ir_hi;User ID=ar79_ir_79;Password=aliking94@;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("");
             base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
