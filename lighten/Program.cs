@@ -16,12 +16,12 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<DataBaseContext>(option =>
 {
-    option.UseSqlServer(builder.Configuration.GetConnectionString("Data Source=185.10.75.52;Initial Catalog=ar79_ir_hi;User ID=ar79_ir_79;Password=aliking94@;TrustServerCertificate=True"));
+    option.UseSqlServer(builder.Configuration.GetConnectionString(""));
 });
 
 builder.Services.AddDbContext<DataBaseContextIdentity>(option =>
 {
-    option.UseSqlServer(builder.Configuration.GetConnectionString("Data Source=185.10.75.52;Initial Catalog=ar79_ir_hi;User ID=ar79_ir_79;Password=aliking94@;TrustServerCertificate=True"));
+    option.UseSqlServer(builder.Configuration.GetConnectionString(""));
 });
 //
 builder.Services.AddScoped<IEmailService, EmailService>(); //Add Email Service
