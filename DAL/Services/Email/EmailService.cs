@@ -23,8 +23,8 @@ namespace DAL.Services.Email
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.UseDefaultCredentials = false;
 
-            client.Credentials = new NetworkCredential("alirafipoor79@gmail.com", "aliking94@");
-            MailMessage mail = new MailMessage("alirafipoor79@gmail.com", email,title,body);
+            client.Credentials = new NetworkCredential("", "");
+            MailMessage mail = new MailMessage("", email,title,body);
 
             mail.IsBodyHtml = true;
             mail.BodyEncoding = Encoding.UTF8;
